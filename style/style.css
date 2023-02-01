@@ -1,3 +1,46 @@
-h1 {
-    background-color: brown;
+:root {
+    --priamry-font: 'Nunito', sans-serif;
+    --first-color: #FFFFFF;
+}
+
+
+body {
+    font-family: var(--priamry-font);
+}
+
+.hero {
+    background-image: url("/images/overlay.png");
+    max-width: 100%;
+    text-align: center;
+    padding: 40px 100px ;
+    
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: var(--first-color);
+    line-height: 98px;
+
+}
+
+.hero h2 {
+    padding: 0 300px;
+    font-size: 24px;
+    color:var(--first-color);
+    font-weight: regular;
+    line-height: 35px;
+}
+@media (max-width: 900px) {
+    .hero {
+        max-width: 100%;
+        padding: 0;
+    }
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero h2 {
+        padding: 0 10px;
+        font-size: 18px;
+    }
 }
