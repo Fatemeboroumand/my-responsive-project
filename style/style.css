@@ -12,7 +12,8 @@ body {
     background-image: url("/images/overlay.png");
     max-width: 100%;
     text-align: center;
-    padding: 40px 100px ;
+    padding: 40px 0;
+    margin-top: 100px;
     
 }
 
@@ -21,15 +22,17 @@ body {
     font-weight: bold;
     color: var(--first-color);
     line-height: 98px;
+    padding: 0;
 
 }
 
 .hero h2 {
-    padding: 0 300px;
+    padding: 0 400px;
     font-size: 24px;
     color:var(--first-color);
     font-weight: regular;
     line-height: 35px;
+
 }
 @media (max-width: 900px) {
     .hero {
@@ -38,9 +41,11 @@ body {
     }
     .hero h1 {
         font-size: 40px;
+        line-height: normal;
     }
     .hero h2 {
         padding: 0 10px;
         font-size: 18px;
+        line-height: normal;
     }
 }
