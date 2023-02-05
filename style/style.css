@@ -49,3 +49,36 @@ body {
         line-height: normal;
     }
 }
+
+img {
+    border-radius: 12px;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+
+
+.titel {
+    font-size: 28px;
+    font-weight: bold;
+    color: #272142;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 38px;
+}
+
+
+footer {
+    padding: 50px 0;
+    background-color:aqua;
+}
